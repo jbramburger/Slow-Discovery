@@ -18,10 +18,9 @@ clc
 
 format long
 
-% Load Data
-load three_body_data;
-tspan = three_body_input_data_t(100000:end-100000);
-data = three_body_input_data(1:3,100000:end-100000); % Take only Jupiter data
+% Load Jupiter data
+load jupiter_data;
+data = jupiter_data; 
 
 % Initializations
 n = 2; %number of components
