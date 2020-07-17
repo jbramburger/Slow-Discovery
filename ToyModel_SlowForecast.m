@@ -10,7 +10,7 @@
 % This code is associated with the paper 
 % "Sparse Identification of Slow Timescale Dynamics" by Jason J. 
 % Bramburger, Daniel Dylewsky, and J. Nathan Kutz (2020).This script is 
-% used to obtain the results in Section II.
+% used to obtain the results in Section III.
 % ------------------------------------------------------------------
 
 % Clean workspace

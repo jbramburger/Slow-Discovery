@@ -10,7 +10,7 @@
 % This code is associated with the paper 
 % "Sparse Identification of Slow Timescale Dynamics" by Jason J. 
 % Bramburger, Daniel Dylewsky, and J. Nathan Kutz (2020).This script is 
-% used to obtain the results in Section II.
+% used to obtain the results in Section III.
 % ------------------------------------------------------------------
 
 % Clean workspace
@@ -18,13 +18,7 @@ clear all
 close all 
 clc
 
-%% Initialization
-
-
-% a0=0;   
-% b0=0;   
-% r0=sqrt(2^2+0.8^2); 
-% theta0=atan2(0.8,2);
+%% Initializations
 
 % Initial Conditions
 x1_0 = 0;
@@ -36,8 +30,6 @@ x0 = [x1_0; x2_0; y1_0; y2_0];
 % System parameters
 epsilon=0.01;
 delta = 4;
-
-
 
 %% RK4 integration of the mixed-scale system
 
