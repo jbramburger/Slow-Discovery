@@ -15,3 +15,5 @@ The scripts associated with this repository are as follows:
 - Saturn_SlowDiscovery.m: Slow timescale discovery for the evolution of Saturn in its orbital plane. Data is loaded from saturn_data.mat. Corresponds to work in Section III B.
 
 - Chaos_SlowDiscovery.m: Slow timescale discovery for the evolution of a signal with chaotic slow dynamics. Corresponds to work in Section III C.
+
+A video abstract associated to this code and the corresponding paper is available at: https://www.youtube.com/watch?v=2ji2-XUgVl0&t=31s
